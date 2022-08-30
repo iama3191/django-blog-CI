@@ -33,6 +33,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['django-blog-ire-ci.herokuapp.com', 'localhost']
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-iama3191-djangoblogci-5d1o5ggt5j4.ws-eu63.gitpod.io']
 
 # Application definition
 
@@ -45,6 +46,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'django_summernote'
     'blog',
 ]
 
